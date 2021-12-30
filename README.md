@@ -20,13 +20,13 @@ https://cloud.google.com/compute/docs/regions-zones
 
 
 # INSTALL cks-master
-gcloud compute ssh cks-master \n
-sudo -i \n
+gcloud compute ssh cks-master
+sudo -i
 bash <(curl -s https://raw.githubusercontent.com/killer-sh/cks-course-environment/master/cluster-setup/latest/install_master.sh)
 
 
 # INSTALL cks-worker
-gcloud compute ssh cks-worker \n
-sudo -i \n
+gcloud compute ssh cks-worker
+sudo -i 
 bash <(curl -s https://raw.githubusercontent.com/killer-sh/cks-course-environment/master/cluster-setup/latest/install_worker.sh)
 
